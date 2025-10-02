@@ -1,0 +1,14 @@
+.venv
+.vscode
+output
+__pycache__
+.idea
+*.html
+*.xml
+*.log
+*.png
+src/.vscode
+src/*.html
+src/*.xml
+src/*.log
+src/*.png
