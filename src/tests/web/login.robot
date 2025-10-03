@@ -30,9 +30,22 @@ Valid User Login
     Open Home Page
     Go To Login Page
     Validate Login Page
-    Input Login Email      ${EMAIL}        # ATTENTION HERE, MUST BE AN EXISTING EMAIL ACCOUNT
+    Input Login Email      ${VALID_EMAIL}        # ATTENTION HERE, MUST BE AN EXISTING EMAIL ACCOUNT
     Input Login Password   ${PASSWORD}
     Click Login Button
     Validate User Logged In
+
+    [Teardown]    Finish Test
+
+Invalid User Login
+    [Documentation]    Test Case to validate login functionality with invalid credentials.
+    [Tags]    Login    Negative
+    Open Home Page
+    Go To Login Page
+    Validate Login Page
+    Input Login Email      ${INVALID_EMAIL}
+    Input Login Password   ${PASSWORD}
+    Click Login Button
+    Validate Error Message
 
     [Teardown]    Finish Test

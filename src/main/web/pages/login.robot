@@ -43,3 +43,8 @@ Validate User Logged In
     ${result}=    Run Keyword And Return Status    Page Should Contain Element    //a[contains(text(),'Logged in as')]
     Should Be True    ${result}    User is not logged in
     Log    User is logged in
+
+Validate Error Message
+    ${result}=    Run Keyword And Return Status    Page Should Contain Element    //p[text()='Your email or password is incorrect!']
+    Should Be True    ${result}    Error message is not displayed
+    Log    Error message is displayed

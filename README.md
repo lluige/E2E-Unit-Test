@@ -5,7 +5,7 @@
 | ----------------------- | ------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------- | ------ |
 | Cadastro                | Cadastro de novo usuário        | Preencher formulário com nome, email válido e dados adicionais           | Mensagem **Account Created**; usuário pode fazer logout | ✅ OK   |
 | Login                   | Login com usuário válido        | Inserir email e senha válidos                                            | Nome do usuário aparece no topo da página               | ✅ OK   |
-| Login                   | Login com credenciais inválidas | Inserir email e senha incorretos                                         | Mensagem de erro de login                               |    |
+| Login                   | Login com credenciais inválidas | Inserir email e senha incorretos                                         | Mensagem de erro de login                               | ✅ OK   |
 | Carrinho de Compras     | Adicionar produto ao carrinho   | Selecionar produto e clicar em **Add to Cart**                           | Produto aparece no carrinho                             |    |
 | Checkout                | Checkout com login existente    | Login válido, adicionar produto, preencher endereço e dados de pagamento | Mensagem de pedido confirmado                           |    |
 | Carrinho de Compras     | Remover produto do carrinho     | Adicionar dois produtos, remover um                                      | Apenas o produto restante permanece no carrinho         |    |

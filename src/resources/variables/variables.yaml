@@ -1,4 +1,7 @@
 URL : https://automationexercise.com/
 
-EMAIL : joe.doe@example.com
+EMAIL : joe.doe1@example.com
 PASSWORD : password123
+
+VALID_EMAIL : joe.doe@example.com
+INVALID_EMAIL : joe.doe.invalid@example.com
