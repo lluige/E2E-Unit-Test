@@ -25,7 +25,7 @@ New User Sign Up
 
 Valid User Login
     [Documentation]    Test Case to validate existing user login functionality.
-    [Tags]    Login
+    [Tags]    SignIn
     Open Home Page
     Go To Login Page
     Validate Login Page
