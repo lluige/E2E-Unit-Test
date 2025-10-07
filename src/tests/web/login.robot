@@ -3,7 +3,6 @@ Resource           ../../main/web/pages/home.robot
 Resource           ../../main/web/pages/login.robot
 Resource           ../../main/web/pages/signup.robot
 Resource           ../../resources/web/resources.robot
-Variables          ../../resources/variables/variables.yaml
 
 *** Test Cases ***
 New User Sign Up
