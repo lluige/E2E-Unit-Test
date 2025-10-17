@@ -5,3 +5,9 @@ PASSWORD : password123
 
 VALID_EMAIL : joe.doe@example.com
 INVALID_EMAIL : joe.doe.invalid@example.com
+
+NAME_ON_CARD : Joe Doe
+CARD_NUMBER : 4111111111111111
+CVC : 123
+EXPIRY_MONTH : 12
+EXPIRY_YEAR : 2038

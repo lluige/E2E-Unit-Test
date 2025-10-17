@@ -15,3 +15,6 @@ Open Home Page
 Finish Test
     [Documentation]    Encerra a sessão do navegador.
     Close Browser
+
+Remove Iframes
+    Execute JavaScript                  document.querySelectorAll('ins.adsbygoogle').forEach(e => e.remove());

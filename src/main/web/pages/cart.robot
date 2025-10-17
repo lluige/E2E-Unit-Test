@@ -22,3 +22,6 @@ Validate Item Removed From Cart
     ${result}=    Run Keyword And Return Status    Wait Until Page Contains Element    //td[@class="cart_description"]/h4/a[normalize-space(text())="${item_name}"]    timeout=5s
     Should Not Be True    ${result}    Item '${item_name}' still found in cart.
     Log    Item '${item_name}' successfully removed from cart.
+
+Proceed To Checkout
+    Click Element    //a[contains(normalize-space(.), 'Proceed To Checkout')]

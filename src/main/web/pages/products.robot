@@ -1,5 +1,6 @@
 *** Settings ***
-Library    SeleniumLibrary
+Library     SeleniumLibrary
+Resource    ../../../resources/web/resources.robot
 
 *** Variables ***
 
@@ -12,6 +13,3 @@ Add Item To Cart
     Remove Iframes
     Wait Until Element Is Visible       //div[@class="product-overlay"]//div[@class="overlay-content"][p[normalize-space(text())="${item_name}"]]//a[contains(@class,"add-to-cart")]
     Click Element                       //div[@class="product-overlay"]//div[@class="overlay-content"][p[normalize-space(text())="${item_name}"]]//a[contains(@class,"add-to-cart")]
-
-Remove Iframes
-    Execute JavaScript                  document.querySelectorAll('ins.adsbygoogle').forEach(e => e.remove());
