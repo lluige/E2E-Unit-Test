@@ -10,4 +10,4 @@
 | Checkout                | Checkout com login existente    | Login válido, adicionar produto, preencher endereço e dados de pagamento | Mensagem de pedido confirmado                           |   ✅ OK |
 | Carrinho de Compras     | Remover produto do carrinho     | Adicionar dois produtos, remover um                                      | Apenas o produto restante permanece no carrinho         |  ✅ OK  |
 | Pesquisa                | Pesquisa de produto             | Usar campo de pesquisa para procurar item                                | Resultados correspondentes aparecem listados            |  ✅ OK  |
-| Logout                  | Logout após compra              | Concluir pedido e clicar em Logout                                       | Retorno à página de login                               |    |
+| Logout                  | Logout após compra              | Concluir pedido e clicar em Logout                                       | Retorno à página de login                               |  ✅ OK |

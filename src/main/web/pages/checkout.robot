@@ -2,8 +2,6 @@
 Library     SeleniumLibrary
 Resource    ../../../resources/web/resources.robot
 
-*** Variables ***
-
 *** Keywords ***
 Place Order
     Remove Iframes

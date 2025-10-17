@@ -18,3 +18,6 @@ Finish Test
 
 Remove Iframes
     Execute JavaScript                  document.querySelectorAll('ins.adsbygoogle').forEach(e => e.remove());
+
+Logout User
+    Click Element        //a[@href='/logout']
